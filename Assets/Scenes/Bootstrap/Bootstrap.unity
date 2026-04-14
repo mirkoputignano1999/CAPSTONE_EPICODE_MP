@@ -424,9 +424,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb4053c154d111a47b4bb4286966d0b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <GameStateManager>k__BackingField: {fileID: 0}
-  <SaveManager>k__BackingField: {fileID: 0}
-  <SceneFlowManager>k__BackingField: {fileID: 0}
+  <GameStateManager>k__BackingField: {fileID: 944174995}
+  <SaveManager>k__BackingField: {fileID: 944174996}
+  <SceneFlowManager>k__BackingField: {fileID: 944174997}
 --- !u!1 &956976719
 GameObject:
   m_ObjectHideFlags: 0

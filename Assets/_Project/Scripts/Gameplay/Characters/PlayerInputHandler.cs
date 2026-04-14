@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 public class PlayerInputHandler : MonoBehaviour
 {
     public Vector2 MoveInput { get; private set; }
-    public bool AttackPressed { get; private set; }
+    public bool AttackPressedThisFrame { get; private set; }
 
     public void OnMove(InputAction.CallbackContext context)
     {
@@ -15,11 +15,14 @@ public class PlayerInputHandler : MonoBehaviour
 
     public void OnAttack(InputAction.CallbackContext context)
     {
-        AttackPressed = context.performed;
+        if (context.performed)
+        {
+            AttackPressedThisFrame = true;
+        }
     }
 
     private void LateUpdate()
     {
-        AttackPressed = false;
+        AttackPressedThisFrame = false;
     }
 }
