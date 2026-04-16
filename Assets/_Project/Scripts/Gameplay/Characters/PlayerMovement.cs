@@ -11,10 +11,11 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D _rigidbody2D;
     private Vector2 _movementInput;
     private Vector2 _lastNonZeroDirection = Vector2.down;
+    private bool _movementLocked;
 
     public Vector2 MovementInput => _movementInput;
     public Vector2 LastNonZeroDirection => _lastNonZeroDirection;
-    public bool IsMoving => _movementInput.sqrMagnitude > 0.001f;
+    public bool IsMoving => !_movementLocked && _movementInput.sqrMagnitude > 0.001f;
 
     private void Awake()
     {
@@ -28,7 +29,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        _movementInput = _inputHandler != null ? _inputHandler.MoveInput : Vector2.zero;
+        Vector2 rawInput = _inputHandler != null ? _inputHandler.MoveInput : Vector2.zero;
+        _movementInput = _movementLocked ? Vector2.zero : rawInput;
 
         if (_movementInput.sqrMagnitude > 0.001f)
         {
@@ -40,6 +42,16 @@ public class PlayerMovement : MonoBehaviour
     {
         Vector2 delta = _movementInput.normalized * (_moveSpeed * Time.fixedDeltaTime);
         _rigidbody2D.MovePosition(_rigidbody2D.position + delta);
+    }
+
+    public void SetMovementLocked(bool isLocked)
+    {
+        _movementLocked = isLocked;
+
+        if (_movementLocked)
+        {
+            _movementInput = Vector2.zero;
+        }
     }
 
     private Vector2 GetCardinalDirection(Vector2 direction)

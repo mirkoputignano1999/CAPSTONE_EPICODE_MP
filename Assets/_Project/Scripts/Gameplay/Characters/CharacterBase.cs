@@ -8,6 +8,7 @@ public abstract class CharacterBase : MonoBehaviour
     [SerializeField] protected PlayerMovement _movement;
     [SerializeField] protected PlayerHealth _health;
     [SerializeField] protected PlayerInputHandler _inputHandler;
+    [SerializeField] protected PlayerAnimatorController _animatorController;
 
     public CharacterType CharacterType => _characterType;
 
@@ -31,6 +32,11 @@ public abstract class CharacterBase : MonoBehaviour
         if (_inputHandler == null)
         {
             Debug.LogError($"{name}: PlayerInputHandler reference is missing.");
+        }
+
+        if (_animatorController == null)
+        {
+            Debug.LogError($"{name}: PlayerAnimatorController reference is missing.");
         }
     }
 }
