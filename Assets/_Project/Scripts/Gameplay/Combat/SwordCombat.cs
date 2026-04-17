@@ -22,8 +22,8 @@ public class SwordCombat : MonoBehaviour
     [Header("Attack Settings")]
     [SerializeField] private int _damage = 1;
     [SerializeField] private float _attackDuration = 0.25f;
-    [SerializeField] private float _hitboxStartupDelay = 0.04f;
-    [SerializeField] private float _hitboxActiveTime = 0.12f;
+    [SerializeField] private float _hitboxStartupDelay = 0f;
+    [SerializeField] private float _hitboxActiveTime = 0.10f;
     [SerializeField] private bool _lockMovementDuringAttack = true;
 
     private bool _isAttacking;
@@ -57,6 +57,7 @@ public class SwordCombat : MonoBehaviour
     private IEnumerator AttackRoutine()
     {
         _isAttacking = true;
+        DeactivateAllHitboxes();
 
         if (_lockMovementDuringAttack)
         {
@@ -114,6 +115,14 @@ public class SwordCombat : MonoBehaviour
         {
             Debug.LogError($"{name}: Animator reference is missing.");
         }
+    }
+
+    private void DeactivateAllHitboxes()
+    {
+        if (_upHitbox != null) _upHitbox.DeactivateHitbox();
+        if (_downHitbox != null) _downHitbox.DeactivateHitbox();
+        if (_leftHitbox != null) _leftHitbox.DeactivateHitbox();
+        if (_rightHitbox != null) _rightHitbox.DeactivateHitbox();
     }
 
     private void ApplyDamageToHitboxes()
