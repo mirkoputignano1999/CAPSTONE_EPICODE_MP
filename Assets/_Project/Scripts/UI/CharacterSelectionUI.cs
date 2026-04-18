@@ -4,23 +4,27 @@ using UnityEngine;
 
 public class CharacterSelectUI : MonoBehaviour
 {
-    [SerializeField] private string _swordChapterSceneName = "Chapter_01_Sword";
-    [SerializeField] private string _mageChapterSceneName = "Chapter_01_Mage";
+    [SerializeField] private string _swordStartSceneName = "Chapter_01_Sword";
+    [SerializeField] private string _mageStartSceneName = "Chapter_01_Mage";
 
     public void OnSelectSword()
     {
-        GameManager.Instance.GameStateManager.SetActiveCharacter(CharacterType.Sword);
-        GameManager.Instance.SceneFlowManager.LoadChapterScene(_swordChapterSceneName);
+        StartGameWithCharacter(CharacterType.Sword, _swordStartSceneName);
     }
 
     public void OnSelectMage()
     {
-        GameManager.Instance.GameStateManager.SetActiveCharacter(CharacterType.Mage);
-        GameManager.Instance.SceneFlowManager.LoadChapterScene(_mageChapterSceneName);
+        StartGameWithCharacter(CharacterType.Mage, _mageStartSceneName);
     }
 
     public void OnBackPressed()
     {
         GameManager.Instance.SceneFlowManager.LoadMainMenu();
+    }
+
+    private void StartGameWithCharacter(CharacterType characterType, string sceneName)
+    {
+        GameManager.Instance.GameStateManager.SetActiveCharacter(characterType);
+        GameManager.Instance.SceneFlowManager.LoadChapterScene(sceneName);
     }
 }

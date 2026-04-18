@@ -21,5 +21,9 @@ public class CameraFollow : MonoBehaviour
             _smoothSpeed * Time.deltaTime
         );
     }
+    public void SetTarget(Transform targetTransform)
+    {
+        _target = targetTransform;
+    }
 }
 

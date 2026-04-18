@@ -212,9 +212,6 @@ MonoBehaviour:
   _leftHitbox: {fileID: 1226748901196795703}
   _rightHitbox: {fileID: 2751848282082896101}
   _damage: 1
-  _attackDuration: 0.25
-  _hitboxStartupDelay: 0.04
-  _hitboxActiveTime: 0.12
   _lockMovementDuringAttack: 1
 --- !u!114 &2003608155146513536
 MonoBehaviour:
@@ -262,8 +259,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.4}
-  m_Size: {x: 1, y: 1.4}
+  m_Offset: {x: 0, y: -0.6}
+  m_Size: {x: 1, y: 1}
   m_Direction: 0
 --- !u!1 &4017510665995363336
 GameObject:
@@ -276,7 +273,7 @@ GameObject:
   - component: {fileID: 5576385114824327702}
   - component: {fileID: 3790438245574376063}
   - component: {fileID: 2725247788200886578}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -580,8 +577,8 @@ Transform:
   m_GameObject: {fileID: 7759686286371194254}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.026, y: -1.33, z: 0}
-  m_LocalScale: {x: 1.5684297, y: 1.61077, z: 2.3011}
+  m_LocalPosition: {x: -0.026, y: -1.4, z: 0}
+  m_LocalScale: {x: 1.5684297, y: 1.7557393, z: 2.3011}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1674431359551110286}
@@ -654,7 +651,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2485709822556094851}
   - component: {fileID: 2835119835191593174}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}

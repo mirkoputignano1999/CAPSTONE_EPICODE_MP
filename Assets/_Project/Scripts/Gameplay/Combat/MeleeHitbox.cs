@@ -37,6 +37,12 @@ public class MeleeHitbox : MonoBehaviour
 
     public void DeactivateHitbox()
     {
+        if (_collider2D == null)
+        {
+            _collider2D = GetComponent<Collider2D>();
+            if (_collider2D == null) return;
+        }
+
         _collider2D.enabled = false;
         _damagedTargets.Clear();
     }
