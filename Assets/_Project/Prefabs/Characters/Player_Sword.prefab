@@ -212,6 +212,9 @@ MonoBehaviour:
   _leftHitbox: {fileID: 1226748901196795703}
   _rightHitbox: {fileID: 2751848282082896101}
   _damage: 1
+  _attackDuration: 0.25
+  _hitboxStartupDelay: 0
+  _hitboxActiveTime: 0.1
   _lockMovementDuringAttack: 1
 --- !u!114 &2003608155146513536
 MonoBehaviour:
@@ -334,7 +337,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -709186023
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 63811035, guid: 5d83bc00104aecd48a60f91a33b13a60, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

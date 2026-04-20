@@ -5,12 +5,11 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour, IDamageable
 {
     [SerializeField] private int _maxHealth = 3;
-    [SerializeField] private bool _destroyOnDeath = true;
+    [SerializeField] private SlimeController _slimeController;
 
     private int _currentHealth;
 
     public int CurrentHealth => _currentHealth;
-    public int MaxHealth => _maxHealth;
     public bool IsDead => _currentHealth <= 0;
 
     private void Awake()
@@ -32,16 +31,22 @@ public class EnemyHealth : MonoBehaviour, IDamageable
         if (_currentHealth == 0)
         {
             Die();
+            return;
+        }
+
+        if (_slimeController != null)
+        {
+            _slimeController.OnHurt();
         }
     }
 
     private void Die()
     {
-        Debug.Log($"{name} died.");
-
-        if (_destroyOnDeath)
+        if (_slimeController != null)
         {
-            Destroy(gameObject);
+            _slimeController.OnDeath();
         }
+
+        Destroy(gameObject, 0.9f);
     }
 }
