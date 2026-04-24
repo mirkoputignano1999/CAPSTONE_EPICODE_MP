@@ -59,6 +59,36 @@ public class GameStateManager : MonoBehaviour
         }
     }
 
+    public void SetLastCheckpointId(CharacterType characterType, string checkpointId)
+    {
+        CharacterProgress progress = GetCharacterProgress(characterType);
+
+        if (progress == null)
+        {
+            return;
+        }
+
+        progress.LastCheckpointId = checkpointId ?? string.Empty;
+    }
+
+    public string GetLastCheckpointId(CharacterType characterType)
+    {
+        CharacterProgress progress = GetCharacterProgress(characterType);
+        return progress != null ? progress.LastCheckpointId : string.Empty;
+    }
+
+    public void SetCurrentChapter(CharacterType characterType, string chapterId)
+    {
+        CharacterProgress progress = GetCharacterProgress(characterType);
+
+        if (progress == null || string.IsNullOrWhiteSpace(chapterId))
+        {
+            return;
+        }
+
+        progress.CurrentChapterId = chapterId;
+    }
+
     public void CompleteChapter(CharacterType characterType, string chapterId, bool isKeyChapter)
     {
         CharacterProgress progress = GetCharacterProgress(characterType);
@@ -94,6 +124,18 @@ public class GameStateManager : MonoBehaviour
         {
             progress.UnlockedAbilityIds.Add(abilityId);
         }
+    }
+
+    public bool HasAbilityUnlocked(CharacterType characterType, string abilityId)
+    {
+        CharacterProgress progress = GetCharacterProgress(characterType);
+
+        if (progress == null || string.IsNullOrWhiteSpace(abilityId))
+        {
+            return false;
+        }
+
+        return progress.UnlockedAbilityIds.Contains(abilityId);
     }
 
     public void LoadFromSaveData(SaveData saveData)

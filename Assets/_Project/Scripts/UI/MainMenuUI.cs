@@ -19,7 +19,16 @@ public class MainMenuUI : MonoBehaviour
         }
 
         GameManager.Instance.ContinueGame();
-        GameManager.Instance.SceneFlowManager.LoadCharacterSelect();
+
+        string resumeSceneName = GameManager.Instance.GetResumeSceneName();
+
+        if (string.IsNullOrWhiteSpace(resumeSceneName))
+        {
+            GameManager.Instance.SceneFlowManager.LoadCharacterSelect();
+            return;
+        }
+
+        GameManager.Instance.SceneFlowManager.LoadChapterScene(resumeSceneName);
     }
 
     public void OnDeleteSavePressed()

@@ -88,6 +88,13 @@ public class SlimeController : MonoBehaviour
             return;
         }
 
+        float distanceToTarget = Vector2.Distance(transform.position, _target.position);
+
+        if (distanceToTarget > _attackRange)
+        {
+            return;
+        }
+
         Vector2 directionToTarget = ((Vector2)_target.position - _rigidbody2D.position).normalized;
         _animatorController.SetFacingDirection(directionToTarget);
         _animatorController.UpdateMovement(Vector2.zero);
@@ -95,18 +102,15 @@ public class SlimeController : MonoBehaviour
         _lastAttackTime = Time.time;
         _animatorController.TriggerAttack();
 
-        Collider2D hit = Physics2D.OverlapCircle(transform.position, _attackRange, _playerLayerMask);
-
-        if (hit == null)
-        {
-            return;
-        }
-
-        PlayerHealth playerHealth = hit.GetComponentInParent<PlayerHealth>();
+        PlayerHealth playerHealth = _target.GetComponent<PlayerHealth>();
 
         if (playerHealth != null)
         {
             playerHealth.TakeDamage(_contactDamage);
+        }
+        else
+        {
+            Debug.LogWarning($"{name}: Target has no PlayerHealth component.");
         }
     }
 

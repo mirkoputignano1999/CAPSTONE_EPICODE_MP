@@ -8,6 +8,7 @@ public class CharacterProgress
 {
     public CharacterType CharacterType;
     public string CurrentChapterId;
+    public string LastCheckpointId;
     public List<string> UnlockedAbilityIds = new();
     public List<string> ReachedCheckpointIds = new();
     public List<string> CompletedChapterIds = new();
@@ -17,5 +18,6 @@ public class CharacterProgress
     {
         CharacterType = characterType;
         CurrentChapterId = string.Empty;
+        LastCheckpointId = string.Empty;
     }
 }

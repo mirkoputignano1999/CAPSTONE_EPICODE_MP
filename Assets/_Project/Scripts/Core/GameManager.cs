@@ -33,6 +33,19 @@ public class GameManager : MonoBehaviour
         GameStateManager.LoadFromSaveData(saveData);
     }
 
+    public string GetResumeSceneName()
+    {
+        CharacterType activeCharacter = GameStateManager.CurrentState.ActiveCharacterType;
+        CharacterProgress progress = GameStateManager.GetCharacterProgress(activeCharacter);
+
+        if (progress == null || string.IsNullOrWhiteSpace(progress.CurrentChapterId))
+        {
+            return string.Empty;
+        }
+
+        return progress.CurrentChapterId;
+    }
+
     public void SaveCurrentGame()
     {
         SaveManager.SaveGame(GameStateManager);
