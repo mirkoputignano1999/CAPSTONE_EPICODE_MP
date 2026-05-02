@@ -2,9 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System;
 
 public class PlayerHealth : MonoBehaviour
 {
+    public event Action<int,int> OnHealthChanged; // currentHealth, maxHealth
+    public event Action OnDied;
     [Header("Stats")]
     [SerializeField] private int _maxHealth = 5;
 
@@ -37,6 +40,7 @@ public class PlayerHealth : MonoBehaviour
     private void Awake()
     {
         _currentHealth = _maxHealth;
+        OnHealthChanged?.Invoke(_currentHealth, _maxHealth);
 
         if (_movement == null)
         {
@@ -66,6 +70,7 @@ public class PlayerHealth : MonoBehaviour
         }
 
         _currentHealth = Mathf.Max(0, _currentHealth - damage);
+        OnHealthChanged?.Invoke(_currentHealth, _maxHealth);
 
         if (_currentHealth == 0)
         {
@@ -119,6 +124,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void Die()
     {
+        OnDied?.Invoke();
         _isDead = true;
         _isInvulnerable = true;
 

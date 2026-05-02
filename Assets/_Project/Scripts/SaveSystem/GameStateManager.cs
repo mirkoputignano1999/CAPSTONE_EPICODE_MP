@@ -16,6 +16,18 @@ public class GameStateManager : MonoBehaviour
         CurrentState = new GameState();
     }
 
+    public bool CanStartCharacter(CharacterType characterType)
+    {
+        CharacterProgress progress = GetCharacterProgress(characterType);
+
+        if (progress == null)
+        {
+            return false;
+        }
+
+        return string.IsNullOrWhiteSpace(progress.CurrentChapterId);
+    }
+
     public void SetActiveCharacter(CharacterType characterType)
     {
         CurrentState.ActiveCharacterType = characterType;
@@ -164,5 +176,42 @@ public class GameStateManager : MonoBehaviour
             MageProgress = CurrentState.MageProgress,
             GlobalChoiceIds = CurrentState.GlobalChoiceIds
         };
+    }
+
+    public string GetCurrentChapter(CharacterType characterType)
+    {
+        CharacterProgress progress = GetCharacterProgress(characterType);
+
+        if (progress == null)
+        {
+            return string.Empty;
+        }
+
+        return progress.CurrentChapterId ?? string.Empty;
+    }
+
+    public bool HasCompletedChapter(CharacterType characterType, string chapterId)
+    {
+        CharacterProgress progress = GetCharacterProgress(characterType);
+
+        if (progress == null || string.IsNullOrWhiteSpace(chapterId))
+        {
+            return false;
+        }
+
+        return progress.CompletedChapterIds.Contains(chapterId);
+    }
+
+    public bool AreBothChapterTwosCompleted()
+    {
+        return HasCompletedChapter(CharacterType.Sword, "Chapter_02_Sword")
+            && HasCompletedChapter(CharacterType.Mage, "Chapter_02_Mage");
+    }
+
+    public bool HasStartedCharacter(CharacterType characterType)
+    {
+        CharacterProgress progress = GetCharacterProgress(characterType);
+
+        return progress != null && !string.IsNullOrWhiteSpace(progress.CurrentChapterId);
     }
 }

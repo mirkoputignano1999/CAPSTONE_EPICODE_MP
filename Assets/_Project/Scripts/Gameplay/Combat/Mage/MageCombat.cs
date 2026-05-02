@@ -7,6 +7,11 @@ public class MageCombat : MonoBehaviour
     private static readonly int AttackXHash = Animator.StringToHash("AttackX");
     private static readonly int AttackYHash = Animator.StringToHash("AttackY");
     private static readonly int AttackTriggerHash = Animator.StringToHash("Attack");
+    private static readonly int AttackModeHash = Animator.StringToHash("AttackMode");
+
+    private const int BaseProjectileMode = 0;
+    private const int BeamMode = 1;
+    private const int LightBowMode = 2;
 
     [Header("References")]
     [SerializeField] private PlayerInputHandler _inputHandler;
@@ -15,27 +20,52 @@ public class MageCombat : MonoBehaviour
     [SerializeField] private Animator _animator;
     [SerializeField] private Transform _castPoint;
 
-    [Header("Projectile Attack")]
+    [Header("Base Projectile")]
     [SerializeField] private MagicProjectile _projectilePrefab;
 
-    [Header("Beam Attack")]
+    [Header("Beam Ability")]
     [SerializeField] private MageBeam _beamPrefab;
 
-    [Header("Cast Settings")]
+    [Header("Light Bow Ability")]
+    [SerializeField] private LightBowProjectile _lightBowProjectilePrefab;
+
+    [Header("Damage")]
     [SerializeField] private int _damage = 1;
-    [SerializeField] private float _castDuration = 0.35f;
-    [SerializeField] private float _spellSpawnDelay = 0.12f;
+
+    [Header("Cast Timing")]
+    [SerializeField] private float _baseProjectileCastDuration = 0.35f;
+    [SerializeField] private float _baseProjectileSpawnDelay = 0.12f;
+
+    [SerializeField] private float _beamCastDuration = 0.35f;
+    [SerializeField] private float _beamSpawnDelay = 0.12f;
+
+    [SerializeField] private float _lightBowCastDuration = 0.6f;
+    [SerializeField] private float _lightBowSpawnDelay = 0.18f;
+
     [SerializeField] private bool _lockMovementDuringCast = true;
 
-    [Header("Cast Offsets")]
+    [Header("Projectile / Light Bow Offsets")]
     [SerializeField] private Vector2 _castOffsetUp = new(0f, 0.45f);
     [SerializeField] private Vector2 _castOffsetDown = new(0f, -0.45f);
     [SerializeField] private Vector2 _castOffsetLeft = new(-0.45f, 0f);
     [SerializeField] private Vector2 _castOffsetRight = new(0.45f, 0f);
 
+    [Header("Beam Offsets")]
+    [SerializeField] private Vector2 _beamOffsetUp = new(0f, 0.8f);
+    [SerializeField] private Vector2 _beamOffsetDown = new(0f, -0.8f);
+    [SerializeField] private Vector2 _beamOffsetLeft = new(-0.8f, 0f);
+    [SerializeField] private Vector2 _beamOffsetRight = new(0.8f, 0f);
+
     private bool _isCasting;
 
     public bool IsCasting => _isCasting;
+
+    private enum MageSpellType
+    {
+        BaseProjectile = 0,
+        Beam = 1,
+        LightBow = 2
+    }
 
     private void Awake()
     {
@@ -75,15 +105,20 @@ public class MageCombat : MonoBehaviour
         }
 
         Vector2 castDirection = _movement.LastNonZeroDirection;
+        MageSpellType selectedSpell = GetSelectedSpellType();
+
+        float spawnDelay = GetSpawnDelay(selectedSpell);
+        float castDuration = GetCastDuration(selectedSpell);
 
         UpdateAnimatorDirection(castDirection);
+        SetAttackMode(selectedSpell);
         _animator.SetTrigger(AttackTriggerHash);
 
-        yield return new WaitForSeconds(_spellSpawnDelay);
+        yield return new WaitForSeconds(spawnDelay);
 
-        SpawnSelectedSpell(castDirection);
+        SpawnSelectedSpell(selectedSpell, castDirection);
 
-        float remainingTime = _castDuration - _spellSpawnDelay;
+        float remainingTime = castDuration - spawnDelay;
 
         if (remainingTime > 0f)
         {
@@ -98,53 +133,126 @@ public class MageCombat : MonoBehaviour
         _isCasting = false;
     }
 
-    private void SpawnSelectedSpell(Vector2 direction)
+    private MageSpellType GetSelectedSpellType()
     {
         if (GameManager.Instance == null || GameManager.Instance.GameStateManager == null)
         {
-            return;
+            return MageSpellType.BaseProjectile;
         }
 
-        if (GameManager.Instance.GameStateManager.HasAbilityUnlocked(CharacterType.Mage, "Mage_Beam"))
+        GameStateManager gameStateManager = GameManager.Instance.GameStateManager;
+
+        if (gameStateManager.HasAbilityUnlocked(CharacterType.Mage, "Mage_Beam"))
         {
-            SpawnBeam(direction);
-            return;
+            return MageSpellType.Beam;
         }
 
-        if (GameManager.Instance.GameStateManager.HasAbilityUnlocked(CharacterType.Mage, "Mage_LightBow"))
+        if (gameStateManager.HasAbilityUnlocked(CharacterType.Mage, "Mage_LightBow"))
         {
-            SpawnProjectile(direction);
-            return;
+            return MageSpellType.LightBow;
         }
 
-        SpawnProjectile(direction);
+        return MageSpellType.BaseProjectile;
+    }
+
+    private float GetSpawnDelay(MageSpellType spellType)
+    {
+        return spellType switch
+        {
+            MageSpellType.Beam => _beamSpawnDelay,
+            MageSpellType.LightBow => _lightBowSpawnDelay,
+            _ => _baseProjectileSpawnDelay
+        };
+    }
+
+    private float GetCastDuration(MageSpellType spellType)
+    {
+        return spellType switch
+        {
+            MageSpellType.Beam => _beamCastDuration,
+            MageSpellType.LightBow => _lightBowCastDuration,
+            _ => _baseProjectileCastDuration
+        };
+    }
+
+    private void SetAttackMode(MageSpellType spellType)
+    {
+        int modeValue = spellType switch
+        {
+            MageSpellType.BaseProjectile => BaseProjectileMode,
+            MageSpellType.Beam => BeamMode,
+            MageSpellType.LightBow => LightBowMode,
+            _ => BaseProjectileMode
+        };
+
+        _animator.SetInteger(AttackModeHash, modeValue);
+    }
+
+    private void SpawnSelectedSpell(MageSpellType spellType, Vector2 direction)
+    {
+        switch (spellType)
+        {
+            case MageSpellType.Beam:
+                SpawnBeam(direction);
+                break;
+
+            case MageSpellType.LightBow:
+                SpawnLightBowProjectile(direction);
+                break;
+
+            default:
+                SpawnProjectile(direction);
+                break;
+        }
     }
 
     private void SpawnBeam(Vector2 direction)
     {
-        if (_beamPrefab == null || _castPoint == null)
+        if (_beamPrefab == null)
         {
-            Debug.LogError($"{name}: Cannot spawn beam. Missing prefab or cast point.");
+            Debug.LogError($"{name}: Beam prefab is missing.");
+            return;
+        }
+
+        Vector2 spawnPosition = (Vector2)transform.position + GetBeamOffset(direction);
+
+        MageBeam beamInstance = Instantiate(_beamPrefab, spawnPosition, Quaternion.identity);
+        beamInstance.Initialize(direction, _damage);
+    }
+
+    private void SpawnLightBowProjectile(Vector2 direction)
+    {
+        if (_lightBowProjectilePrefab == null || _castPoint == null)
+        {
+            Debug.LogError($"{name}: LightBow projectile prefab or cast point is missing.");
             return;
         }
 
         _castPoint.localPosition = GetCastOffset(direction);
 
-        MageBeam beamInstance = Instantiate(_beamPrefab, _castPoint.position, Quaternion.identity);
-        beamInstance.Initialize(direction, _damage);
+        LightBowProjectile projectileInstance = Instantiate(
+            _lightBowProjectilePrefab,
+            _castPoint.position,
+            Quaternion.identity);
+
+        projectileInstance.Initialize(direction, _damage);
     }
 
     private void SpawnProjectile(Vector2 direction)
     {
         if (_projectilePrefab == null || _castPoint == null)
         {
-            Debug.LogError($"{name}: Cannot spawn projectile. Missing prefab or cast point.");
+            Debug.LogError($"{name}: Base projectile prefab or cast point is missing.");
             return;
         }
 
         _castPoint.localPosition = GetCastOffset(direction);
 
-        MagicProjectile projectileInstance = Instantiate(_projectilePrefab, _castPoint.position, Quaternion.identity);
+        MagicProjectile projectileInstance = Instantiate(
+            _projectilePrefab,
+            _castPoint.position,
+            Quaternion.identity);
+
         projectileInstance.Initialize(direction, _damage);
     }
 
@@ -168,6 +276,26 @@ public class MageCombat : MonoBehaviour
         return _castOffsetRight;
     }
 
+    private Vector2 GetBeamOffset(Vector2 direction)
+    {
+        if (direction == Vector2.up)
+        {
+            return _beamOffsetUp;
+        }
+
+        if (direction == Vector2.down)
+        {
+            return _beamOffsetDown;
+        }
+
+        if (direction == Vector2.left)
+        {
+            return _beamOffsetLeft;
+        }
+
+        return _beamOffsetRight;
+    }
+
     private void UpdateAnimatorDirection(Vector2 direction)
     {
         _animator.SetFloat(AttackXHash, direction.x);
@@ -184,6 +312,11 @@ public class MageCombat : MonoBehaviour
         if (_movement == null)
         {
             Debug.LogError($"{name}: PlayerMovement reference is missing.");
+        }
+
+        if (_health == null)
+        {
+            Debug.LogError($"{name}: PlayerHealth reference is missing.");
         }
 
         if (_animator == null)

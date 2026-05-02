@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: 7703089481629303742}
   m_Layer: 6
   m_Name: Player_Mage
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -206,6 +206,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _maxHealth: 5
+  _invulnerabilityDuration: 0.5
+  _deathReloadDelay: 3
+  _spriteRenderer: {fileID: 6313053162301181277}
+  _flashInterval: 0.08
+  _flashAlpha: 0.35
+  _movement: {fileID: 3057679964744949912}
+  _animatorController: {fileID: 8724158898616906081}
 --- !u!114 &6785743952897906900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -252,17 +259,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _inputHandler: {fileID: 4783291759936747168}
   _movement: {fileID: 3057679964744949912}
+  _health: {fileID: 8311022190251198590}
   _animator: {fileID: 1115364089629144}
   _castPoint: {fileID: 1885416108988762146}
   _projectilePrefab: {fileID: 3411097150497729486, guid: a454a065072589a4ab346d0dd419a006, type: 3}
+  _beamPrefab: {fileID: 8035743007557224067, guid: 9b9addfabaf08544ca2a7a2c5c023885, type: 3}
+  _lightBowProjectilePrefab: {fileID: 6936286342689400649, guid: 53f34fbebfad99143b837152b6ac0f05, type: 3}
   _damage: 1
   _castDuration: 0.35
-  _projectileSpawnDelay: 0.12
+  _spellSpawnDelay: 0.12
   _lockMovementDuringCast: 1
   _castOffsetUp: {x: 0, y: 0.45}
   _castOffsetDown: {x: 0, y: -0.45}
   _castOffsetLeft: {x: -0.45, y: 0}
   _castOffsetRight: {x: 0.45, y: 0}
+  _beamOffsetUp: {x: 0, y: 0.8}
+  _beamOffsetDown: {x: 0, y: -0.8}
+  _beamOffsetLeft: {x: -0.8, y: 0}
+  _beamOffsetRight: {x: 0.8, y: 0}
 --- !u!1 &2873959596455056141
 GameObject:
   m_ObjectHideFlags: 0
@@ -419,7 +433,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -709186023
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 1744514018, guid: 4689e0b9342565448862de53c4f3584c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -478,7 +492,7 @@ Transform:
   m_GameObject: {fileID: 4913577775107228042}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.72, y: -0.373, z: 0}
+  m_LocalPosition: {x: 0.72, y: -0.93, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

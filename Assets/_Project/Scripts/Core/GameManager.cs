@@ -33,17 +33,57 @@ public class GameManager : MonoBehaviour
         GameStateManager.LoadFromSaveData(saveData);
     }
 
-    public string GetResumeSceneName()
+    public string GetResumeSceneName(CharacterType characterType)
     {
-        CharacterType activeCharacter = GameStateManager.CurrentState.ActiveCharacterType;
-        CharacterProgress progress = GameStateManager.GetCharacterProgress(activeCharacter);
-
-        if (progress == null || string.IsNullOrWhiteSpace(progress.CurrentChapterId))
+        if (GameStateManager == null)
         {
             return string.Empty;
         }
 
-        return progress.CurrentChapterId;
+        return GameStateManager.GetCurrentChapter(characterType);
+    }
+
+    public void ContinueGameAs(CharacterType characterType)
+    {
+        if (GameStateManager == null)
+        {
+            return;
+        }
+
+        GameStateManager.SetActiveCharacter(characterType);
+    }
+
+    public void StartCharacterStory(CharacterType characterType, string startSceneName)
+    {
+        if (GameStateManager == null)
+        {
+            return;
+        }
+
+        GameStateManager.SetActiveCharacter(characterType);
+
+        if (string.IsNullOrWhiteSpace(GameStateManager.GetCurrentChapter(characterType)))
+        {
+            GameStateManager.SetCurrentChapter(characterType, startSceneName);
+            GameStateManager.SetLastCheckpointId(characterType, string.Empty);
+        }
+
+        SaveCurrentGame();
+        SceneFlowManager.LoadChapterScene(startSceneName);
+    }
+
+    public string PendingContinueMessage { get; private set; } = string.Empty;
+
+    public void SetPendingContinueMessage(string message)
+    {
+        PendingContinueMessage = message ?? string.Empty;
+    }
+
+    public string ConsumePendingContinueMessage()
+    {
+        string message = PendingContinueMessage;
+        PendingContinueMessage = string.Empty;
+        return message;
     }
 
     public void SaveCurrentGame()

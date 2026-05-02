@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MainMenuUI : MonoBehaviour
 {
+    [SerializeField] private string _continueCharacterSelectSceneName = "ContinueCharacterSelect";
+
     public void OnNewGamePressed()
     {
         GameManager.Instance.StartNewGame();
@@ -19,16 +21,7 @@ public class MainMenuUI : MonoBehaviour
         }
 
         GameManager.Instance.ContinueGame();
-
-        string resumeSceneName = GameManager.Instance.GetResumeSceneName();
-
-        if (string.IsNullOrWhiteSpace(resumeSceneName))
-        {
-            GameManager.Instance.SceneFlowManager.LoadCharacterSelect();
-            return;
-        }
-
-        GameManager.Instance.SceneFlowManager.LoadChapterScene(resumeSceneName);
+        GameManager.Instance.SceneFlowManager.LoadChapterScene(_continueCharacterSelectSceneName);
     }
 
     public void OnDeleteSavePressed()

@@ -41,6 +41,11 @@ public class ChapterPlayerSpawner : MonoBehaviour
             CheckpointManager.Instance.CurrentSpawnPoint.position,
             Quaternion.identity);
 
+        if (GameplayUIManager.Instance != null)
+        {
+            GameplayUIManager.Instance.RegisterPlayer(_spawnedPlayerInstance);
+        }
+
         if (_cameraFollow != null)
         {
             _cameraFollow.SetTarget(_spawnedPlayerInstance.transform);

@@ -9,12 +9,12 @@ public class CharacterSelectUI : MonoBehaviour
 
     public void OnSelectSword()
     {
-        StartGameWithCharacter(CharacterType.Sword, _swordStartSceneName);
+        StartCharacter(CharacterType.Sword, _swordStartSceneName);
     }
 
     public void OnSelectMage()
     {
-        StartGameWithCharacter(CharacterType.Mage, _mageStartSceneName);
+        StartCharacter(CharacterType.Mage, _mageStartSceneName);
     }
 
     public void OnBackPressed()
@@ -22,9 +22,22 @@ public class CharacterSelectUI : MonoBehaviour
         GameManager.Instance.SceneFlowManager.LoadMainMenu();
     }
 
-    private void StartGameWithCharacter(CharacterType characterType, string sceneName)
+    private void StartCharacter(CharacterType characterType, string startSceneName)
     {
-        GameManager.Instance.GameStateManager.SetActiveCharacter(characterType);
-        GameManager.Instance.SceneFlowManager.LoadChapterScene(sceneName);
+        if (GameManager.Instance == null || GameManager.Instance.SaveManager == null)
+        {
+            return;
+        }
+
+        if (!GameManager.Instance.SaveManager.SaveExists())
+        {
+            GameManager.Instance.StartNewGame();
+        }
+        else
+        {
+            GameManager.Instance.ContinueGame();
+        }
+
+        GameManager.Instance.StartCharacterStory(characterType, startSceneName);
     }
 }

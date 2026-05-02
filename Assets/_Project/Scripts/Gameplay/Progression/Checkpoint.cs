@@ -54,6 +54,9 @@ public class Checkpoint : MonoBehaviour
         gameStateManager.SetLastCheckpointId(activeCharacter, _checkpointId);
         GameManager.Instance.SaveCurrentGame();
 
-        Debug.Log($"{name} activated.");
+        if (GameplayUIManager.Instance != null)
+        {
+            GameplayUIManager.Instance.ShowMessage("Checkpoint raggiunto");
+        }
     }
 }

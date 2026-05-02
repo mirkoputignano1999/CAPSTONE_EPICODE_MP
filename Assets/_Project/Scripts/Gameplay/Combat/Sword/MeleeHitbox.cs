@@ -13,15 +13,21 @@ public class MeleeHitbox : MonoBehaviour
 
     private void Awake()
     {
-        _collider2D = GetComponent<Collider2D>();
+        Initialize();
+    }
+
+    private void Initialize()
+    {
+        if (_collider2D == null)
+        {
+            _collider2D = GetComponent<Collider2D>();
+        }
 
         if (_collider2D == null)
         {
             Debug.LogError($"{name}: Collider2D is missing.");
             return;
         }
-
-        _collider2D.enabled = false;
     }
 
     public void SetDamage(int damage)
@@ -31,16 +37,24 @@ public class MeleeHitbox : MonoBehaviour
 
     public void ActivateHitbox()
     {
+        Initialize();
+
+        if (_collider2D == null)
+        {
+            return;
+        }
+
         _damagedTargets.Clear();
         _collider2D.enabled = true;
     }
 
     public void DeactivateHitbox()
     {
+        Initialize();
+
         if (_collider2D == null)
         {
-            _collider2D = GetComponent<Collider2D>();
-            if (_collider2D == null) return;
+            return;
         }
 
         _collider2D.enabled = false;
