@@ -19,6 +19,8 @@ public class PlayerInteractor : MonoBehaviour
 
     private void Update()
     {
+        UpdateInteractionPrompt();
+
         if (_inputHandler == null)
         {
             return;
@@ -43,6 +45,28 @@ public class PlayerInteractor : MonoBehaviour
         interactable.Interact(playerRoot);
     }
 
+    private void UpdateInteractionPrompt()
+    {
+        IInteractable interactable = GetClosestInteractable();
+
+        if (interactable == null)
+        {
+            if (GameplayUIManager.Instance != null)
+            {
+                GameplayUIManager.Instance.HideInteractionPrompt();
+            }
+
+            return;
+        }
+
+        string prompt = interactable.GetInteractionPrompt();
+
+        if (GameplayUIManager.Instance != null)
+        {
+            GameplayUIManager.Instance.ShowInteractionPrompt(prompt);
+        }
+    }
+
     private IInteractable GetClosestInteractable()
     {
         _nearbyInteractables.RemoveAll(item => item == null);
@@ -62,7 +86,7 @@ public class PlayerInteractor : MonoBehaviour
                 continue;
             }
 
-            float distance = Vector2.Distance(transform.position, interactableBehaviour.transform.position);
+            float distance = Vector2.Distance(transform.root.position, interactableBehaviour.transform.position);
 
             if (distance < closestDistance)
             {
@@ -99,5 +123,10 @@ public class PlayerInteractor : MonoBehaviour
         }
 
         _nearbyInteractables.Remove(interactable);
+
+        if (_nearbyInteractables.Count == 0 && GameplayUIManager.Instance != null)
+        {
+            GameplayUIManager.Instance.HideInteractionPrompt();
+        }
     }
 }

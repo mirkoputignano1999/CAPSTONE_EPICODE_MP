@@ -40,4 +40,9 @@ public class LeverInteractable : InteractableBase
             GameplayUIManager.Instance.ShowMessage(_activatedMessage, 2.5f);
         }
     }
+
+    public override string GetInteractionPrompt()
+    {
+        return _isActivated ? "Leva attivata" : _interactionPrompt;
+    }
 }

@@ -8,6 +8,8 @@ public class CameraFollow : MonoBehaviour
     [SerializeField] private float _smoothSpeed = 5f;
     [SerializeField] private Vector3 _offset;
 
+    private Vector3 _velocity;
+
     private void LateUpdate()
     {
         if (_target == null) return;
@@ -24,6 +26,21 @@ public class CameraFollow : MonoBehaviour
     public void SetTarget(Transform targetTransform)
     {
         _target = targetTransform;
+    }
+
+    public void SnapToTarget()
+    {
+        if (_target == null)
+        {
+            return;
+        }
+
+        _velocity = Vector3.zero;
+
+        transform.position = new Vector3(
+            _target.position.x,
+            _target.position.y,
+            transform.position.z);
     }
 }
 

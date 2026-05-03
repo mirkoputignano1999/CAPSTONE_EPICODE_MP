@@ -11,6 +11,7 @@ public class GameplayUIManager : MonoBehaviour
     [SerializeField] private GameObject _healthPanel;
     [SerializeField] private PlayerHealthUI _playerHealthUI;
     [SerializeField] private GameMessageUI _gameMessageUI;
+    [SerializeField] private InteractionPromptUI _interactionPromptUI;
 
     [Header("Menu Scenes")]
     [SerializeField]
@@ -51,6 +52,7 @@ public class GameplayUIManager : MonoBehaviour
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         RefreshVisibility(scene.name);
+        HideInteractionPrompt();
     }
 
     private void RefreshVisibility(string sceneName)
@@ -60,6 +62,11 @@ public class GameplayUIManager : MonoBehaviour
         if (_healthPanel != null)
         {
             _healthPanel.SetActive(!isMenuScene);
+        }
+
+        if (isMenuScene)
+        {
+            HideInteractionPrompt();
         }
     }
 
@@ -109,5 +116,25 @@ public class GameplayUIManager : MonoBehaviour
         }
 
         _gameMessageUI.ShowMessage(message, duration);
+    }
+
+    public void ShowInteractionPrompt(string prompt)
+    {
+        if (_interactionPromptUI == null || string.IsNullOrWhiteSpace(prompt))
+        {
+            return;
+        }
+
+        _interactionPromptUI.Show(prompt);
+    }
+
+    public void HideInteractionPrompt()
+    {
+        if (_interactionPromptUI == null)
+        {
+            return;
+        }
+
+        _interactionPromptUI.Hide();
     }
 }

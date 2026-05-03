@@ -155,13 +155,36 @@ public class PlayerHealth : MonoBehaviour
 
         ChapterPlayerSpawner playerSpawner = FindFirstObjectByType<ChapterPlayerSpawner>();
 
-        if (playerSpawner != null)
-        {
-            playerSpawner.RespawnPlayer();
-        }
-        else
+        if (playerSpawner == null)
         {
             Debug.LogError("ChapterPlayerSpawner not found. Cannot respawn player.");
+            yield break;
+        }
+
+        if (ScreenFader.Instance != null)
+        {
+            ScreenFader.Instance.FadeOutActionFadeIn(() =>
+            {
+                playerSpawner.RespawnPlayer();
+
+                CameraFollow cameraFollow = FindFirstObjectByType<CameraFollow>();
+
+                if (cameraFollow != null)
+                {
+                    cameraFollow.SnapToTarget();
+                }
+            });
+
+            yield break;
+        }
+
+        playerSpawner.RespawnPlayer();
+
+        CameraFollow fallbackCameraFollow = FindFirstObjectByType<CameraFollow>();
+
+        if (fallbackCameraFollow != null)
+        {
+            fallbackCameraFollow.SnapToTarget();
         }
     }
 

@@ -15,6 +15,9 @@ public class DoorInteractable : InteractableBase
     [SerializeField] private bool _isOpen;
     [SerializeField] private float _openDuration = 0.5f;
 
+    [Header("Fade")]
+    [SerializeField] private bool _useFadeTransition = true;
+
     [Header("Messages")]
     [SerializeField] private string _closedMessage = "Sembra che sia chiusa.";
 
@@ -63,6 +66,16 @@ public class DoorInteractable : InteractableBase
         Transfer(interactor);
     }
 
+    public override string GetInteractionPrompt()
+    {
+        if (_doorUnlockState == null || !_doorUnlockState.IsUnlocked)
+        {
+            return "Esamina";
+        }
+
+        return _isOpen ? "Entra/Esci" : "Apri";
+    }
+
     private void Transfer(GameObject interactor)
     {
         if (_targetPoint == null)
@@ -73,12 +86,36 @@ public class DoorInteractable : InteractableBase
 
         CharacterBase character = interactor.GetComponentInParent<CharacterBase>();
 
-        if (character != null)
+        if (character == null)
         {
-            character.transform.position = _targetPoint.position;
+            Debug.LogError($"{name}: No CharacterBase found on interactor.");
             return;
         }
 
-        interactor.transform.position = _targetPoint.position;
+        if (_useFadeTransition && ScreenFader.Instance != null)
+        {
+            ScreenFader.Instance.FadeOutActionFadeIn(() =>
+            {
+                character.transform.position = _targetPoint.position;
+
+                CameraFollow cameraFollow = FindFirstObjectByType<CameraFollow>();
+
+                if (cameraFollow != null)
+                {
+                    cameraFollow.SnapToTarget();
+                }
+            });
+
+            return;
+        }
+
+        character.transform.position = _targetPoint.position;
+
+        CameraFollow immediateCameraFollow = FindFirstObjectByType<CameraFollow>();
+
+        if (immediateCameraFollow != null)
+        {
+            immediateCameraFollow.SnapToTarget();
+        }
     }
 }

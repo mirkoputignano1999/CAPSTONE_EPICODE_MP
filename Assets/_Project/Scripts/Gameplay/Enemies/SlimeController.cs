@@ -142,6 +142,7 @@ public class SlimeController : MonoBehaviour
     public void OnDeath()
     {
         _isDead = true;
+        _contactDamage = 0;
         _animatorController.UpdateMovement(Vector2.zero);
         _animatorController.SetDead();
         _rigidbody2D.velocity = Vector2.zero;
