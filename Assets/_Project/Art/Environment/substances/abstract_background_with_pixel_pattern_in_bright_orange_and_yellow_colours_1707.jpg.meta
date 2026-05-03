@@ -1,0 +1,5746 @@
+fileFormatVersion: 2
+guid: d4f072cb16795234fa28343d84702f35
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3320.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe268fc7cd6f06f499952eb407ec4040
+      internalID: 1725131026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_1
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 3320.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e543d5f1f09a74bab63d9d1747c66a
+      internalID: -1015329970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_2
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 3320.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4d5220c55f5034d9643de0949318ad
+      internalID: 1222244682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_3
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 3320.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd96e4e77a6c0140a55f4aa6960f0af
+      internalID: -1147298798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_4
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 3320.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f66d105b78afd44ba8b95ef7a20f39
+      internalID: 788045758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_5
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 3320.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337fd845b12467841bf1ba55443d312c
+      internalID: -1109932659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_6
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 3320.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae801d6a3018ed340b438f3572324a04
+      internalID: 40314910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_7
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 3320.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79c949ad0634834e820bcc9057ea4b6
+      internalID: 1055145021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_8
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 3320.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6228ca9d2a177204fba641f788ee34f4
+      internalID: 1374702351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_9
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 3320.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584bb57987b151e42a869efb3fbbe86c
+      internalID: 582553192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_10
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 3320.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b627ee5e1a5bc4f829fbc250e80067
+      internalID: -1232218764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_11
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 3320.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0047b688b0b32b49b87fc27a758d1fb
+      internalID: -411203527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_12
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 3320.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb972fce3ccf6154fa287baa9ad53e4d
+      internalID: 1414838382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_13
+      rect:
+        serializedVersion: 2
+        x: 4056
+        y: 3320.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b4c20267b62e54694782932925da47
+      internalID: -1956547061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_14
+      rect:
+        serializedVersion: 2
+        x: 4368
+        y: 3320.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1df85126e43344d949ea7d9319f295
+      internalID: 899362623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_15
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 3320.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f3d7140e17e06479c40afbb21e464b
+      internalID: -1372179398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3099.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d9cc5ffe02f6640b9c78a56d333f6c
+      internalID: -760368663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_17
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 3099.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0077d7a218b869d45955221be2075309
+      internalID: -919858026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_18
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 3099.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491a4a07ea6950f42814363de4146e89
+      internalID: -1209410194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_19
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 3099.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de3d9ed0031b384bae8a2a019ff7bcf
+      internalID: -422767260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_20
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 3099.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3afbce8ef7464e4a94e5c8d42f1011f
+      internalID: -701391180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_21
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 3099.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e1ed77386116e459bf677b377585e5
+      internalID: -1977954755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_22
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 3099.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9c0975a3d9c3243a00e34921051b46
+      internalID: 1509641414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_23
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 3099.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89027666ac8b394586546d675bf9718
+      internalID: 1260141642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_24
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 3099.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68972ccfe6e40c64f851645cb233ddbe
+      internalID: -1884311224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_25
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 3099.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55964de15f1e78243b9edb17eff626e1
+      internalID: 204799813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_26
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 3099.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba3a620b81604042bce3f8332d7241b
+      internalID: -546490864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_27
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 3099.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3703bb16324214d45961bf0540ac1c87
+      internalID: 627019833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_28
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 3099.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2aa5e0f9a4d134fa31ed24206ae342
+      internalID: 555015344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_29
+      rect:
+        serializedVersion: 2
+        x: 4056
+        y: 3099.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1504933f134f2408a8c89dfe3d2c4f
+      internalID: 881093059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_30
+      rect:
+        serializedVersion: 2
+        x: 4368
+        y: 3099.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543e424867cc2e5448e60d3a82ec5503
+      internalID: 2026785131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_31
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 3099.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c6ba5549fa6134f8900aeeea680809
+      internalID: -760734439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2878.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2aa865c0ae732442ac3e68248786d2f
+      internalID: -1935721636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_33
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 2878.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b3696be576ffb409e52ffd3cf27a86
+      internalID: -1044495850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_34
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 2878.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600e593280e8fe3459219ddd55707e9f
+      internalID: 1841028490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_35
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 2878.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45f5c5ee1f329549accd925ce97e2da
+      internalID: -1517391173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_36
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 2878.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d0754baa7b4cb4d909df83e09f12d0
+      internalID: 268864874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_37
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 2878.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c019ddb687ecbf479fe92b080492845
+      internalID: 2037486216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_38
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 2878.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473647556d4185f4cb08c770be8a2f4c
+      internalID: 1738093141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_39
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 2878.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3470178c0171cc4498b86ca96317fcae
+      internalID: -1207428692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_40
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 2878.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029685627ebbba14c8f2d440d2ab3949
+      internalID: -638662650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_41
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 2878.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414a60c6e84e5ba4f9aeac292ddfbf5c
+      internalID: 2038734763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_42
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 2878.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee90f63f9014d25419084f84640b6839
+      internalID: -1278949156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_43
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 2878.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808e1363aff2e3344ad09a2053c21fb0
+      internalID: 1446205251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_44
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 2878.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ed99e01aad64240aa85f80178424f9
+      internalID: 1891998575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_45
+      rect:
+        serializedVersion: 2
+        x: 4056
+        y: 2878.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab979f09a7d80c4493f91aa71ada955
+      internalID: -1362114895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_46
+      rect:
+        serializedVersion: 2
+        x: 4368
+        y: 2878.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc139ba3d584d91488c2e7addf82847f
+      internalID: -1185343733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_47
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 2878.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd198b941885754aaae51920a2e5a1c
+      internalID: 448230984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2657.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b53e84e82609a42b24e9f66c423663
+      internalID: -104434772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_49
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 2657.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034c185025e3af44b8d4c2c7613fb50d
+      internalID: 719127531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_50
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 2657.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7154f6a1749be4a9164dd7203293a6
+      internalID: 442233265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_51
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 2657.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02937ab5b9f6a0f4f92946b8a1f18300
+      internalID: 1931238010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_52
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 2657.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4b0df37d5bfb841b582250723cbcca
+      internalID: -16159447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_53
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 2657.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca98b2cfbc178494dae80d19842bf70a
+      internalID: -1142282074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_54
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 2657.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67917a57a0e35bd46bfd31313337750f
+      internalID: -1981486439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_55
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 2657.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983c799f4a4f17d4eb1bfa397fc621fc
+      internalID: -111798736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_56
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 2657.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58dc3469d3cc8854fbe5e03b61a54078
+      internalID: 1250361281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_57
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 2657.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f087a2d7b2a7c754d8f330ffac44c5a6
+      internalID: 1294982731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_58
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 2657.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd95fae92603bd439a195295593973a
+      internalID: -1042080030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_59
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 2657.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe50e4a5e8889542b02c40135f74912
+      internalID: -342025575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_60
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 2657.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4203be1fe335c54c9ebaa4837c74332
+      internalID: 151598681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_61
+      rect:
+        serializedVersion: 2
+        x: 4056
+        y: 2657.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fc3998e3e01c74a86808c967ae656a
+      internalID: 1435791593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_62
+      rect:
+        serializedVersion: 2
+        x: 4368
+        y: 2657.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e89af4fe9a81a948aec24b1883627f8
+      internalID: -1901327702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_63
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 2657.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3659949cdf369dc4baed6e7eb3362530
+      internalID: -1592997250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2436.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd40022f6b26874398bc4bdabeed423
+      internalID: 1714905901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_65
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 2436.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93a87d3803c4854887cb700bfacde22
+      internalID: -1359369065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_66
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 2436.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0244933af30a324389a27b2572f24e0
+      internalID: 1271462182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_67
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 2436.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e06af5e4980e643b61afae02316bbb
+      internalID: -1741738996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_68
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 2436.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ba5eb7dfb3b2845805ddc0471fbdd1
+      internalID: -1032838713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_69
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 2436.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093f0caecd80d08418cf4645ffcfc92d
+      internalID: -1934367098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_70
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 2436.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374492e215ef7e04680ef790a6a0d6f3
+      internalID: -660919998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_71
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 2436.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2ad04149d88e24e9fae0d8ce11f2d5
+      internalID: -1679235789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_72
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 2436.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d857f2355161e7e46803272d3946e526
+      internalID: 1058270993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_73
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 2436.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedac21df85a3204da5a1b144481003e
+      internalID: -1413787508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_74
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 2436.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c38795a5595a1341920325176a41c63
+      internalID: 1341689458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_75
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 2436.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d57da64cb0d9b4b8c618e5ef2b75ab
+      internalID: 1062531607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_76
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 2436.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41cf1f585d99d648b7659ba704ba57b
+      internalID: 1504273020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_77
+      rect:
+        serializedVersion: 2
+        x: 4056
+        y: 2436.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad2a8e649e88704586e2c1f95611de2
+      internalID: -970898859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_78
+      rect:
+        serializedVersion: 2
+        x: 4368
+        y: 2436.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3440bbd35ae2743b97d77c3d0796dc
+      internalID: -121135855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_79
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 2436.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09347aeb30dedd94f8d80972b442900a
+      internalID: -911625069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2215.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1085fd0dd12035c4991df1707c1957a5
+      internalID: -114939022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_81
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 2215.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd9381aa83d9b64ea45282e6c660191
+      internalID: 246601839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_82
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 2215.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107fd1a5f256e274d84a91384ff43f1f
+      internalID: -299913153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_83
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 2215.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d55fd241ad9ac418f826a8f5e534a4
+      internalID: -1531559547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_84
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 2215.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea414d4d70256b4b84664f42d85c320
+      internalID: 1893860632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_85
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 2215.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088b36e5cc78d284380b3bcb28b338e8
+      internalID: -675467567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_86
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 2215.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade40effa8771f4469ae74d2d7059696
+      internalID: -1485079765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_87
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 2215.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e62afab1ab74a044b50892308bc7c87
+      internalID: 2072488366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_88
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 2215.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9da212347feb245bfeefc7249e58a5
+      internalID: 878078964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_89
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 2215.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5733d9416481ca94d83166f3420ee50e
+      internalID: -724478678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_90
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 2215.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0af39c7ff8a574a8225e2ed0d7e43f
+      internalID: -354890809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_91
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 2215.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6141f3e088077c45bb773863cfb29c4
+      internalID: 470632707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_92
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 2215.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f969a0a234c784bb6ad6ad40e7855f
+      internalID: 1224296660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_93
+      rect:
+        serializedVersion: 2
+        x: 4056
+        y: 2215.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19dfa9323bb07d4e9991e89c808fd17
+      internalID: -1626841583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_94
+      rect:
+        serializedVersion: 2
+        x: 4368
+        y: 2215.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d549aca934cb444bf9db8e636c44ab
+      internalID: -135267990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_95
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 2215.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2866ad69f25c947ab852c6229c0792
+      internalID: -1971677255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1994.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03474f66e9fc0a41b4547423befab99
+      internalID: 1348625703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_97
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1994.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8076e80cd623bbc40888f770a65c4111
+      internalID: 995152295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_98
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1994.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aefa331e33d57247afa997ec7c69cff
+      internalID: -649596396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_99
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1994.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b40722f9b95aa4ca238da3266ef1ab
+      internalID: 1564834889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_100
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1994.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e5a8b4e4f2e2e47a243d9b6b7e168e
+      internalID: -1147130647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_101
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1994.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77d79ce1bca20b4188f1601575eb9ad
+      internalID: -1939695465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_102
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1994.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0732eb74fee253b45aa1d103fb64f792
+      internalID: 1692726977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_103
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 1994.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a7cd6025dd4644ea2d8eff0b6ad984
+      internalID: -1299925198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_104
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 1994.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52df1f8e4ece12a47add9ade09718be5
+      internalID: -1021333954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_105
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1994.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499ed4116eb0da84b9bdff63d2003aa4
+      internalID: -1287186112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_106
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 1994.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf331122c904e64f8524fc820211ec8
+      internalID: -1973313977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_107
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 1994.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fb1a130a8b47949907663501644cc5
+      internalID: -460010165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_108
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 1994.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2550527e880e1764283b515f25992f41
+      internalID: 757808138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_109
+      rect:
+        serializedVersion: 2
+        x: 4056
+        y: 1994.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18b6e0ef0925664e8a5e4d77e4e98a7
+      internalID: -176579999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_110
+      rect:
+        serializedVersion: 2
+        x: 4368
+        y: 1994.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f917a68fa3f1c7d4492ade3280802fc4
+      internalID: -1226301435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_111
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 1994.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc9b7e0d18037240809677b557e2fd4
+      internalID: -521488521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1773.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab6c3f818ec3ec4497f287656d94ab9
+      internalID: 390734474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_113
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1773.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2a347d32510e548a7e396eb42767a4
+      internalID: 1367625012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_114
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1773.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9764f6aebb9b42b4f86662675efff3e2
+      internalID: -406644208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_115
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1773.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79db3f31e6cd8d24db3ea876251ec38b
+      internalID: 745029086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_116
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1773.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bad0d9bf70a4e34a9bfd47fcea5f2ec
+      internalID: 1707810567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_117
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1773.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3353b8181f1f84fa29e9d2e6a4181b
+      internalID: 1037358866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_118
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1773.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9a36723d37080488771b3d53b978d0
+      internalID: -766364826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_119
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 1773.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b66932f5aacc749afa24d4a759d5df
+      internalID: 2089758293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_120
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 1773.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ebcc5830fcf904ba8ae3d44c6531e7
+      internalID: 935336506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_121
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1773.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791a0cb177630d941a2528c17230e86e
+      internalID: -1687754226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_122
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 1773.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59409edd69b066b4fbae5d9a7196f5fd
+      internalID: -102442621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_123
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 1773.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6f1f086236c4040a27348db015ff6b
+      internalID: 54894186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_124
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 1773.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8370ef8a94e51404bb72ecd8bcf96399
+      internalID: 1591340517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_125
+      rect:
+        serializedVersion: 2
+        x: 4056
+        y: 1773.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa798578320a0ff4e950a496b497cfd8
+      internalID: -1325682419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_126
+      rect:
+        serializedVersion: 2
+        x: 4368
+        y: 1773.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bccb0c0de0d729948961589bc80b7182
+      internalID: -1801066787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_127
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 1773.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3144908358becb343ad5d37817159aa2
+      internalID: -1902797788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1552.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16aedd0d745c0d74d937bb8ec3176638
+      internalID: -2001941489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_129
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1552.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a25094a81215940b4e00ded52d1120
+      internalID: 1392336597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_130
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1552.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2346bce93ee784fb2d051164ada421
+      internalID: -582546119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_131
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1552.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa5636db6d860d40b16bf80bbd91f17
+      internalID: -1340651711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_132
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1552.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfcf18b06aedad643bee953cf57a79f8
+      internalID: -791275617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_133
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1552.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b82fe645bf96342b11871f6a4aa006
+      internalID: 910513639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_134
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1552.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bbe87c6ef466c041b7724f1096ad381
+      internalID: -1670555325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_135
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 1552.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afb45e24e87c3849bb32571f49af66f
+      internalID: -1196283954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_136
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 1552.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7ef0594e1b6954aa03af3bcb5cdbf3
+      internalID: -2051395867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_137
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1552.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9009670f46362f40898070968df890c
+      internalID: -2065561187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_138
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 1552.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fda86b765ac40469eb6546b2103880
+      internalID: -252971275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_139
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 1552.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e1fae888599034ca4045cd2e0c051c
+      internalID: -2075194015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_140
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 1552.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7b7bb1ca609b14a9df51c8e37873eb
+      internalID: 675470718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_141
+      rect:
+        serializedVersion: 2
+        x: 4056
+        y: 1552.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5ac8a74e7341b44b81fef43c3a3c49
+      internalID: -1569802981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_142
+      rect:
+        serializedVersion: 2
+        x: 4368
+        y: 1552.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5217b9c25221d4f91081dd6c3dfb2d
+      internalID: 1673068695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_143
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 1552.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f748d6c08b4454da5fb47b716af888
+      internalID: 335478721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1331.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b043d129b13d60b4dafb76145e1d7d72
+      internalID: 1003586032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_145
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1331.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e2fbe16d4d0e548919bfe5414a29bb
+      internalID: 2031928682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_146
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1331.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90567950b5462944e85f3fcb5f48939e
+      internalID: -327057779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_147
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1331.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14315e7b420277949b7234a7f34c662e
+      internalID: -1911425853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_148
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1331.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4010013c607413648a201baa50bf7510
+      internalID: 352473279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_149
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1331.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42d496ad4d45b54a8ed2d4003ff2577
+      internalID: -1625682848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_150
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1331.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2dc97deff0c26044bebf92d54654234
+      internalID: -420956184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_151
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 1331.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baee3a46f9c7d4d4fad5fc132616a6a0
+      internalID: -606292943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_152
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 1331.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35405bd9324ce1d4fa13563866b3bb08
+      internalID: -2642487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_153
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1331.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c77a6a2f3bb5ca4688e0a28a635fff7
+      internalID: 34803107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_154
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 1331.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c1d04e0cf3c2946b79357c53205665
+      internalID: 1753356628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_155
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 1331.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd9eac4bff9ee84e88928ce6c4072a5
+      internalID: 1275325573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_156
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 1331.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5213cb470efcf6f469b4aede1387e3bc
+      internalID: -1060952466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_157
+      rect:
+        serializedVersion: 2
+        x: 4056
+        y: 1331.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfae855d1ded8d74da82636bac091386
+      internalID: -301511538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_158
+      rect:
+        serializedVersion: 2
+        x: 4368
+        y: 1331.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca42746c6433504a8f24849698b3b05
+      internalID: -866780071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_159
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 1331.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb0126e4907c5046a23d486f9b09ac4
+      internalID: 243433083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1110.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98fb0febcd5742479c070661ba2dbe1
+      internalID: -845144421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_161
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1110.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77721b63dd6c0ac48b16cc44697e45b3
+      internalID: -1687427016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_162
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1110.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f710590ad1b0248b9e9f78595d07cc
+      internalID: 297373458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_163
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1110.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa09e1bbc2d8a43438a9be830df6f0fc
+      internalID: 1415222113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_164
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1110.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f501daa23403f4e88ff3afde6df56c
+      internalID: 73552684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_165
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 1110.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6894bc3f0e30786419703456f980788e
+      internalID: -1655988988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_166
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 1110.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7070484352130414fa8770cf3498a049
+      internalID: -1382601866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_167
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 1110.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458f369ae13f17d4da04a638b793f8af
+      internalID: 1468250312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_168
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 1110.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f554a0f702e454ea054ceabe39c9e3
+      internalID: -1275015318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_169
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1110.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee48f80c186b27448aef3d28c572636
+      internalID: 1894247641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_170
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 1110.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8011e7026163cdf4f9d08bc49b0498fa
+      internalID: 1951015324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_171
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 1110.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d381261b2aa21584889a625bad310a13
+      internalID: -2121439535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_172
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 1110.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f60007e7c16ab54091e070f6743c80c
+      internalID: -314342755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_173
+      rect:
+        serializedVersion: 2
+        x: 4056
+        y: 1110.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c63f27075b5a246aff8fa6ffdbb90b
+      internalID: -333103661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_174
+      rect:
+        serializedVersion: 2
+        x: 4368
+        y: 1110.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3065872a390f2d4399aac3a28ee7e5b
+      internalID: 453009640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_175
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 1110.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75634ea0c1496f94ab8fa5885a5cfa34
+      internalID: -1501570856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 889.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be43fc229c776724b957754650028780
+      internalID: 223416564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_177
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 889.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3736be387ad7fca4b8b51619e71c0339
+      internalID: 2095806849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_178
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 889.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2931e83b6ef484a9a843c89e81fcaf
+      internalID: -1295157112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_179
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 889.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47c69f3fd241a84985b427424e8d355
+      internalID: 1900224649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_180
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 889.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c068088fc6b604448a748e05073616c6
+      internalID: 430914760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_181
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 889.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba7f384ca15c5643bd8d813a1eff960
+      internalID: 1353639866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_182
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 889.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5edbd3f866fc92408116ff3902dc862
+      internalID: -519560573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_183
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 889.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7f4df24b5788446af483ad7bc340bf
+      internalID: -1481286122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_184
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 889.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5763898ac89e6124e9487843a99d7a56
+      internalID: 209560321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_185
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 889.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ff64b43a1a7e743881055590b4393d
+      internalID: 109973535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_186
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 889.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e04d0715d332eb4ab7a4d91635745b1
+      internalID: -1388243856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_187
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 889.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb0ea00a0ddb104890749fcd85da057
+      internalID: -44523564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_188
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 889.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02d86c2cad5ed2489a2236f69567ff4
+      internalID: -1162328876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_189
+      rect:
+        serializedVersion: 2
+        x: 4056
+        y: 889.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c0ecff7e500004fb48d95c04e67739
+      internalID: 2029124543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_190
+      rect:
+        serializedVersion: 2
+        x: 4368
+        y: 889.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2970b20eb1296ec4797325a3f69dc7de
+      internalID: -460901939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_191
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 889.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cefa94ecef0b434d96a710383e2cd2c
+      internalID: -21510702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_192
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 668.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40012598e3170bf4f8db6dbaa015d6fa
+      internalID: -1307079133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_193
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 668.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9b108a4d7b9a74ea9e267e30b9822f
+      internalID: 1716915816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_194
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 668.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2bbd1f66c260fe45955b45c622a6f46
+      internalID: -2053669465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_195
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 668.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8003471b6bad94badb0773b2a25f43
+      internalID: -2114116191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_196
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 668.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca8aca4a73f02344a33159844854155
+      internalID: 1651240306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_197
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 668.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390f81cf8745fe1478b76b4be71ef26c
+      internalID: 1058959626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_198
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 668.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af85169747174fd4ca00740360bd1d50
+      internalID: 306247484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_199
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 668.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57014307f3a171b449965bc4b196ee61
+      internalID: 893057249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_200
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 668.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78288e542f7965546994306fc0435704
+      internalID: 1518083627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_201
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 668.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32af53a7b5f713a4c8adc7d607378d25
+      internalID: -400751600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_202
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 668.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396f6e85407510c4ea2832ad9dbce52d
+      internalID: 334369916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_203
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 668.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255765a2aefec3d4abf284f609a36441
+      internalID: 1535905442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_204
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 668.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2cf897989cbac4dbef5854206d61ad
+      internalID: 1718634318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_205
+      rect:
+        serializedVersion: 2
+        x: 4056
+        y: 668.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869ee62481327ca4a9ad29c53a581dd0
+      internalID: 1640301729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_206
+      rect:
+        serializedVersion: 2
+        x: 4368
+        y: 668.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9823b1b29984f48883d9683f617433
+      internalID: -1975140645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_207
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 668.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a570f4540c14340b414c9da9f9b58a
+      internalID: 1620967391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_208
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 447.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d0ad4d813c046409b4e028fad17451
+      internalID: -1593074120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_209
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 447.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6dd96e25b30ce74c8d42d453d83da4c
+      internalID: -1144252490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_210
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 447.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088813b2c62b04745ac6cf54654c71f9
+      internalID: -2104557741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_211
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 447.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332c4f75ee67d614c88134a8ecbfec46
+      internalID: 2068518107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_212
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 447.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4355ee39728a1624bace589729ef2026
+      internalID: -1662358642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_213
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 447.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e177cc10b5b339498a7dbca77f4b436
+      internalID: 1304652799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_214
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 447.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5efca181da02fad48a26b68aeadefb1b
+      internalID: 903624074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_215
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 447.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6ec7d4d4445ce41873fbbf4876f51d
+      internalID: 1595292568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_216
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 447.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaadae40b7d1ed748b6a0a139c80ba58
+      internalID: 1874333776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_217
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 447.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6249465f0a13c1f41a768f89efff5173
+      internalID: 41930005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_218
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 447.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7623b0259afa6d4eada41ab6a94df88
+      internalID: -120241033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_219
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 447.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12f0d2c8e2c1a343bcd2fa09c1d59d3
+      internalID: -1954596129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_220
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 447.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030a2fdaac6dcc4499cc5c228ef44bc4
+      internalID: 1335690119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_221
+      rect:
+        serializedVersion: 2
+        x: 4056
+        y: 447.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f721bca54935cc949a03cb043f697941
+      internalID: -922823399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_222
+      rect:
+        serializedVersion: 2
+        x: 4368
+        y: 447.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a1a219d300fc84fbb94925da76e1d0
+      internalID: 173180118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_223
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 447.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ccd3219e2e08c4ca63ef2095b31f1c
+      internalID: 902210414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_224
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 226.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2daca43de7b5ab0448caa0bd08460d95
+      internalID: -1347076160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_225
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 226.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2748dc391c88a6746aca654bb2c3a96d
+      internalID: 399281982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_226
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 226.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63771ad01f2966444b79417e431259a7
+      internalID: -256539777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_227
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 226.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283757dca5c88ba4f889259cf6362b7a
+      internalID: -1525600020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_228
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 226.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f890f985481e5d479bfe95ea010e6cb
+      internalID: 1428354936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_229
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 226.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba83e68598ec4e04dbacc3e60d5628ac
+      internalID: -69142297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_230
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 226.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd66b860f3b305e40a6651dbdcb4eb59
+      internalID: -268267610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_231
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 226.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3426fd364d7366a4984c61a97c6fa38b
+      internalID: 448871617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_232
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 226.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34535b16edf5c1a42aa14491800436f2
+      internalID: -1519203949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_233
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 226.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8de2ca72e1c3a14fafbda7bf035c086
+      internalID: 1247264736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_234
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 226.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2411dcd62678b0e4899355e3b74617ef
+      internalID: 2136759867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_235
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 226.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba794097820485b41afa031822b3a694
+      internalID: -618548976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_236
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 226.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422a30dc2dcc8ce4187bac49fe6d947c
+      internalID: -770145044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_237
+      rect:
+        serializedVersion: 2
+        x: 4056
+        y: 226.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe8dc7041cbd38468d1d6548cd113b5
+      internalID: -1211718951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_238
+      rect:
+        serializedVersion: 2
+        x: 4368
+        y: 226.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a55553e25325644be16bf01bba0fc4
+      internalID: -252577831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_239
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 226.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cc60f70651eae488a958928e455fd2
+      internalID: 807048157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b36cf6ac2da0c34d9eb15e32119883f
+      internalID: -1984715153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_241
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 5.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbad50b63bca1d940b0d83253ef82c0d
+      internalID: 265784644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_242
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 5.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2bbdb9c0436434d82650d79074b75d
+      internalID: -1882064446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_243
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 5.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625bde10947ed4149b73f9bdccef39e3
+      internalID: 868582806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_244
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 5.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd58b1aa4c798704cbc29da15b64c19c
+      internalID: 743924500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_245
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 5.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe390a92aedcff64d9c692b84ccb1670
+      internalID: 1848485196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_246
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 5.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da9f213c478f0444b29933d4208dffa
+      internalID: -1351238579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_247
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 5.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac10872a1534634280d7383ef705088
+      internalID: -1544898613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_248
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 5.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5d2f540978fc64ba646df65ee3907f
+      internalID: -364264039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_249
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 5.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0780ac0c6f0a4a74b831e1bd0bf53b27
+      internalID: 1644225137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_250
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 5.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10340bc7dbc8b784b8dc85a5e0f8dc99
+      internalID: 946205489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_251
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 5.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017093b0b38a7f940a071d48bf6a2f42
+      internalID: -582801672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_252
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 5.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e3ead0b1588154196df0d6260b474a
+      internalID: 1652082849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_253
+      rect:
+        serializedVersion: 2
+        x: 4056
+        y: 5.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375588fb4df913044a6d8e297a9555c0
+      internalID: -195829376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_254
+      rect:
+        serializedVersion: 2
+        x: 4368
+        y: 5.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba210f993f7eec4d9e7969639f7112a
+      internalID: 1098436600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_255
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 5.625
+        width: 312.5
+        height: 221.375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0044e6852e5c76c40841032e988721d0
+      internalID: 1804860987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_0: 1725131026
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_1: -1015329970
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_10: -1232218764
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_100: -1147130647
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_101: -1939695465
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_102: 1692726977
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_103: -1299925198
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_104: -1021333954
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_105: -1287186112
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_106: -1973313977
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_107: -460010165
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_108: 757808138
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_109: -176579999
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_11: -411203527
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_110: -1226301435
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_111: -521488521
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_112: 390734474
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_113: 1367625012
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_114: -406644208
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_115: 745029086
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_116: 1707810567
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_117: 1037358866
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_118: -766364826
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_119: 2089758293
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_12: 1414838382
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_120: 935336506
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_121: -1687754226
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_122: -102442621
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_123: 54894186
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_124: 1591340517
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_125: -1325682419
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_126: -1801066787
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_127: -1902797788
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_128: -2001941489
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_129: 1392336597
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_13: -1956547061
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_130: -582546119
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_131: -1340651711
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_132: -791275617
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_133: 910513639
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_134: -1670555325
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_135: -1196283954
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_136: -2051395867
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_137: -2065561187
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_138: -252971275
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_139: -2075194015
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_14: 899362623
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_140: 675470718
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_141: -1569802981
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_142: 1673068695
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_143: 335478721
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_144: 1003586032
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_145: 2031928682
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_146: -327057779
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_147: -1911425853
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_148: 352473279
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_149: -1625682848
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_15: -1372179398
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_150: -420956184
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_151: -606292943
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_152: -2642487
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_153: 34803107
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_154: 1753356628
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_155: 1275325573
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_156: -1060952466
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_157: -301511538
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_158: -866780071
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_159: 243433083
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_16: -760368663
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_160: -845144421
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_161: -1687427016
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_162: 297373458
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_163: 1415222113
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_164: 73552684
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_165: -1655988988
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_166: -1382601866
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_167: 1468250312
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_168: -1275015318
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_169: 1894247641
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_17: -919858026
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_170: 1951015324
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_171: -2121439535
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_172: -314342755
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_173: -333103661
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_174: 453009640
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_175: -1501570856
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_176: 223416564
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_177: 2095806849
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_178: -1295157112
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_179: 1900224649
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_18: -1209410194
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_180: 430914760
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_181: 1353639866
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_182: -519560573
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_183: -1481286122
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_184: 209560321
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_185: 109973535
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_186: -1388243856
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_187: -44523564
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_188: -1162328876
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_189: 2029124543
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_19: -422767260
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_190: -460901939
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_191: -21510702
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_192: -1307079133
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_193: 1716915816
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_194: -2053669465
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_195: -2114116191
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_196: 1651240306
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_197: 1058959626
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_198: 306247484
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_199: 893057249
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_2: 1222244682
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_20: -701391180
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_200: 1518083627
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_201: -400751600
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_202: 334369916
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_203: 1535905442
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_204: 1718634318
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_205: 1640301729
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_206: -1975140645
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_207: 1620967391
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_208: -1593074120
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_209: -1144252490
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_21: -1977954755
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_210: -2104557741
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_211: 2068518107
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_212: -1662358642
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_213: 1304652799
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_214: 903624074
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_215: 1595292568
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_216: 1874333776
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_217: 41930005
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_218: -120241033
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_219: -1954596129
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_22: 1509641414
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_220: 1335690119
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_221: -922823399
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_222: 173180118
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_223: 902210414
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_224: -1347076160
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_225: 399281982
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_226: -256539777
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_227: -1525600020
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_228: 1428354936
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_229: -69142297
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_23: 1260141642
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_230: -268267610
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_231: 448871617
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_232: -1519203949
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_233: 1247264736
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_234: 2136759867
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_235: -618548976
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_236: -770145044
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_237: -1211718951
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_238: -252577831
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_239: 807048157
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_24: -1884311224
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_240: -1984715153
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_241: 265784644
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_242: -1882064446
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_243: 868582806
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_244: 743924500
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_245: 1848485196
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_246: -1351238579
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_247: -1544898613
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_248: -364264039
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_249: 1644225137
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_25: 204799813
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_250: 946205489
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_251: -582801672
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_252: 1652082849
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_253: -195829376
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_254: 1098436600
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_255: 1804860987
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_26: -546490864
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_27: 627019833
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_28: 555015344
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_29: 881093059
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_3: -1147298798
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_30: 2026785131
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_31: -760734439
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_32: -1935721636
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_33: -1044495850
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_34: 1841028490
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_35: -1517391173
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_36: 268864874
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_37: 2037486216
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_38: 1738093141
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_39: -1207428692
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_4: 788045758
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_40: -638662650
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_41: 2038734763
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_42: -1278949156
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_43: 1446205251
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_44: 1891998575
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_45: -1362114895
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_46: -1185343733
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_47: 448230984
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_48: -104434772
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_49: 719127531
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_5: -1109932659
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_50: 442233265
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_51: 1931238010
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_52: -16159447
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_53: -1142282074
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_54: -1981486439
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_55: -111798736
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_56: 1250361281
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_57: 1294982731
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_58: -1042080030
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_59: -342025575
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_6: 40314910
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_60: 151598681
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_61: 1435791593
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_62: -1901327702
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_63: -1592997250
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_64: 1714905901
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_65: -1359369065
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_66: 1271462182
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_67: -1741738996
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_68: -1032838713
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_69: -1934367098
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_7: 1055145021
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_70: -660919998
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_71: -1679235789
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_72: 1058270993
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_73: -1413787508
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_74: 1341689458
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_75: 1062531607
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_76: 1504273020
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_77: -970898859
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_78: -121135855
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_79: -911625069
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_8: 1374702351
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_80: -114939022
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_81: 246601839
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_82: -299913153
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_83: -1531559547
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_84: 1893860632
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_85: -675467567
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_86: -1485079765
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_87: 2072488366
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_88: 878078964
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_89: -724478678
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_9: 582553192
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_90: -354890809
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_91: 470632707
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_92: 1224296660
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_93: -1626841583
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_94: -135267990
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_95: -1971677255
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_96: 1348625703
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_97: 995152295
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_98: -649596396
+      abstract_background_with_pixel_pattern_in_bright_orange_and_yellow_colours_1707_99: 1564834889
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
