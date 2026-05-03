@@ -8,6 +8,7 @@ public class PlayerInputHandler : MonoBehaviour
     public Vector2 MoveInput { get; private set; }
     public bool AttackPressedThisFrame { get; private set; }
     public bool InteractPressedThisFrame { get; private set; }
+    public bool PausePressedThisFrame { get; private set; }
 
     public void OnMove(InputAction.CallbackContext context)
     {
@@ -30,9 +31,18 @@ public class PlayerInputHandler : MonoBehaviour
         }
     }
 
+    public void OnPause(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            PausePressedThisFrame = true;
+        }
+    }
+
     private void LateUpdate()
     {
         AttackPressedThisFrame = false;
         InteractPressedThisFrame = false;
+        PausePressedThisFrame = false;
     }
 }

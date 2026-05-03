@@ -5,6 +5,7 @@ using UnityEngine;
 public class MainMenuUI : MonoBehaviour
 {
     [SerializeField] private string _continueCharacterSelectSceneName = "ContinueCharacterSelect";
+    [SerializeField] private string _message = "Il salvataggio è stato cancellato.";
 
     public void OnNewGamePressed()
     {
@@ -16,7 +17,9 @@ public class MainMenuUI : MonoBehaviour
     {
         if (!GameManager.Instance.SaveManager.SaveExists())
         {
-            Debug.LogWarning("Continue pressed, but no save exists.");
+            {
+                GameplayUIManager.Instance.ShowMessage("Nessun salvataggio disponibile.", 3f);
+            }
             return;
         }
 
@@ -26,6 +29,14 @@ public class MainMenuUI : MonoBehaviour
 
     public void OnDeleteSavePressed()
     {
+        if (GameplayUIManager.Instance != null)
+        {
+            GameplayUIManager.Instance.ShowMessage(_message, 3f);
+        }
+        else
+        {
+            Debug.Log(_message);
+        }
         GameManager.Instance.DeleteCurrentSave();
     }
 
@@ -34,3 +45,4 @@ public class MainMenuUI : MonoBehaviour
         GameManager.Instance.SceneFlowManager.QuitGame();
     }
 }
+

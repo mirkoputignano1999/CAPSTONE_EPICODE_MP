@@ -105,7 +105,7 @@ TextureImporter:
         width: 53
         height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -113,6 +113,48 @@ TextureImporter:
       bones: []
       spriteID: e83be772e3f5eeb49917abaac0e850ff
       internalID: 1683510449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main_tiles_0
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 96
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e25c89f4ad5bc44781594f81f42fc2f
+      internalID: -1068729676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main_tiles_2
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 122
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66950834172c18b4192c7ce3c88b8b7c
+      internalID: 1050918486
       vertices: []
       indices: 
       edges: []
@@ -130,6 +172,7 @@ TextureImporter:
     nameFileIdTable:
       Main_tiles_0: -1068729676
       Main_tiles_1: 1683510449
+      Main_tiles_2: 1050918486
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

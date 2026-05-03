@@ -371,7 +371,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000015259, y: -166.88}
+  m_AnchoredPosition: {x: 32.5, y: -172.9}
   m_SizeDelta: {x: 215.79, y: 52.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &661963076
@@ -504,7 +504,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00000047684, y: 70}
+  m_AnchoredPosition: {x: 33.3, y: 70}
   m_SizeDelta: {x: 215.79, y: 56.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &958622213
@@ -771,7 +771,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000096735, y: -11}
+  m_AnchoredPosition: {x: 31, y: -11}
   m_SizeDelta: {x: 215.79, y: 61.23}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1392956085
@@ -1345,7 +1345,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000053046, y: -97}
+  m_AnchoredPosition: {x: 32.5, y: -97}
   m_SizeDelta: {x: 215.79, y: 54.51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1990894931
@@ -1606,6 +1606,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _continueCharacterSelectSceneName: ContinueCharacterSelect
+  _message: "Il salvataggio \xE8 stato cancellato."
 --- !u!4 &2125198173
 Transform:
   m_ObjectHideFlags: 0
