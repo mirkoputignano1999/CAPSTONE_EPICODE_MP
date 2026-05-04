@@ -10,3 +10,6 @@ Ecco il link per giocare:
 https://miroku99.itch.io/quel-gioco-fantasy-in-cui-apro-la-porta-di-casa-mia-con-una-leva
 
 Grazie!
+
+CREDITS TO PIXELJAD (@pixeljad) for UI 
+CREDITS TO CRAFTPIX for environments
